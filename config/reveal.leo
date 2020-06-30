@@ -56,9 +56,11 @@
 <v t=".20200701035825.1"><vh>虛擬主機</vh>
 <v t=".20200701035825.2"><vh>封面投影片</vh>
 <v t=".20200701035825.3"><vh>封面投影片內容</vh></v>
-<v t=".20200701035825.4"><vh>封面投影片內容</vh></v>
-<v t=".20200701035825.5"><vh>封面投影片內容</vh></v>
-<v t=".20200701035825.6"><vh>封面投影片內容</vh></v>
+<v t=".20200701043006.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701043007.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701043008.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701043010.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701043011.1"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -325,21 +327,10 @@ Exit
 
 						
 </t>
-<t tx=".20200701035825.3">## 模擬用小車建模:
+<t tx=".20200701035825.3">## 虛擬主機創建:
 
-參考實際汽車圖片尺寸
-&lt;iframe src="./../dcc4b52fe8911405f5aa0c2602862ab4.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-
-
-
-
-
-</t>
-<t tx=".20200701035825.4">## 模擬用小車建模:
-
-繪製小車底盤
-&lt;iframe src="./../chrome_oVS1LLWLOP.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+下載VirtualBox
+&lt;iframe src="./../16.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -347,10 +338,10 @@ Exit
 
 
 </t>
-<t tx=".20200701035825.5">## 模擬用小車建模:
+<t tx=".20200701043006.1">## 虛擬主機創建:
 
-繪製避震器
-&lt;iframe src="./../chrome_2020-05-19_20-26-13.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+設定putty
+&lt;iframe src="./../11.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
@@ -358,10 +349,42 @@ Exit
 
 
 </t>
-<t tx=".20200701035825.6">## 模擬用小車建模:
+<t tx=".20200701043007.1">## 虛擬主機創建:
 
-繪製斜齒輪(使用Inventor繪製再匯入Onshape)
-&lt;iframe src="./../chrome_0UuwNl33h6.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+添加主機
+&lt;iframe src="./../12.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701043008.1">## 虛擬主機創建:
+
+設定網路
+&lt;iframe src="./../13.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701043010.1">## 虛擬主機創建:
+
+&lt;iframe src="./../14.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701043011.1">## 虛擬主機創建:
+
+設定後使用VirtualBox開啟近端
+&lt;iframe src="./../15.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
 
 
