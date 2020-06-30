@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,29 +10,55 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20180902120523.9"><vh>封面投影片</vh>
 <v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
-<v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
+<v t=".20200701032638.1"><vh>OBS</vh>
+<v t=".20200701032638.2"><vh>封面投影片</vh>
+<v t=".20200701033345.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701034825.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701034831.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701034829.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701034828.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701034827.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701034823.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701033342.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701032638.3"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.13"><vh>可攜</vh>
+<v t=".20200701031921.1"><vh>封面投影片</vh>
+<v t=".20200701031921.2"><vh>封面投影片內容</vh></v>
+</v>
+<v t=".20200701031751.1"><vh>導入縮排程式碼</vh>
+<v t=".20200701031751.2"><vh>引用程式碼</vh></v>
+</v>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
+</v>
+<v t=".20200701032542.1"><vh>小車</vh>
+<v t=".20200701032542.2"><vh>封面投影片</vh>
+<v t=".20200701035320.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701035505.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701035507.1"><vh>封面投影片內容</vh></v>
+<v t=".20200701035508.1"><vh>封面投影片內容</vh></v>
+</v>
+</v>
+<v t=".20200701035825.1"><vh>虛擬主機</vh>
+<v t=".20200701035825.2"><vh>封面投影片</vh>
+<v t=".20200701035825.3"><vh>封面投影片內容</vh></v>
+<v t=".20200701035825.4"><vh>封面投影片內容</vh></v>
+<v t=".20200701035825.5"><vh>封面投影片內容</vh></v>
+<v t=".20200701035825.6"><vh>封面投影片內容</vh></v>
 </v>
 </v>
 </v>
@@ -47,44 +70,7 @@
 </v>
 </vnodes>
 <tnodes>
-<t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
-
-### KMOLab
-
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
-
-[CMSimfly 網誌](./../blog/index.html)
-
-
-</t>
-<t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.12"># 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
-
-</t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
+<t tx=".20200701031751.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 &lt;!-- 請注意, @others 不可以內縮 --&gt;
 @others
@@ -95,12 +81,311 @@ Created by [KMOLab](http://lab.kmol.info/)
 
 						
 </t>
-<t tx="leo.20180902120523.15"># 數學符號與方程式
+<t tx=".20200701031751.2">## 創建可攜系統
+start.bat程式碼:
+```
+@language python
+@echo off
+set Disk=y
+subst %Disk%: "data"
+  
+%Disk%:
+  
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+set USERPROFILE=%Disk%:\home
+  
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+  
+#REM for putty
+#Set GIT_HOME=%CDisk%:\portablegit\bin\
+#Set GIT_SSH=%Disk%:\putty\plink.exe
+  
+set PYTHONPATH=%Disk%:\py382\DLLs;%Disk%:\py382\Lib;%Disk%:\py382\Lib\site-packages;
+set PYTHONHOME=%Disk%:\py382
+  
+set path_python=%Disk%:\py382;%Disk%:\py382\Scripts;
+set path_msys2=%Disk%:\msys64\mingw64\bin;
+set path_git=%Disk%:\portablegit\bin;
+set path_tcc=%Disk%:\tcc;
+  
+path=%Disk%:;%path_python%;%path_msys2%;%path_git%;%path_tcc%;
+  
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+  
+start /MIN %Disk%:\wscite432\wscite\SciTE.exe
+start /MIN %Disk%:\wscite432\wscite\SciTE.exe
+  
+Exit
+```
+</t>
+<t tx=".20200701031921.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
 
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
 
-$$I = \int \rho R^{2} dV$$
+						
+</t>
+<t tx=".20200701031921.2">### 創建可攜系統:
+
+下載PortableGit、MSYS2、python3.8.2、python pip、SciTE、Tiny C Compiler(改名為tcc)、Jupyterlab、Fossil SCM、Flutter、Visual Studio Code、ShareX、putty(老師整理的)並放置於指定路徑，創建home/home_mdecourse：存放 ssh 的資料和.gitconfig，創建tmp存放倉儲
+
+
+
+</t>
+<t tx=".20200701032542.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx=".20200701032542.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx=".20200701032638.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx=".20200701032638.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx=".20200701032638.3">## OBS與youtube直播:
+
+點擊開始串流即可開始直播
+&lt;iframe src="./../images/7.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701033342.1">## OBS與youtube直播:
+
+將金鑰複製貼上至OBS內的設定
+&lt;iframe src="./../images/8.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701033345.1">## OBS與youtube直播:
+
+安裝完開啟
+&lt;iframe src="./../images/1.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701034823.1">## OBS與youtube直播:
+
+至youtube開使串流並複製金鑰
+&lt;iframe src="./../images/9.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701034825.1">## OBS與youtube直播:
+
+開啟後新增視頻來源
+&lt;iframe src="./../images/2.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701034827.1">## OBS與youtube直播:
+
+調整大小
+&lt;iframe src="./../images/6.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701034828.1">## OBS與youtube直播:
+
+確認無問題
+&lt;iframe src="./../images/5.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701034829.1">## OBS與youtube直播:
+
+再建立視訊擷取(相機)
+&lt;iframe src="./../images/4.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701034831.1">## OBS與youtube直播:
+
+選擇顯示器擷取
+&lt;iframe src="./../images/3.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701035320.1">## 模擬用小車建模:
+
+參考實際汽車圖片尺寸
+&lt;iframe src="./../dcc4b52fe8911405f5aa0c2602862ab4.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701035505.1">## 模擬用小車建模:
+
+繪製小車底盤
+&lt;iframe src="./../chrome_oVS1LLWLOP.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701035507.1">## 模擬用小車建模:
+
+繪製避震器
+&lt;iframe src="./../chrome_2020-05-19_20-26-13.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701035508.1">## 模擬用小車建模:
+
+繪製斜齒輪(使用Inventor繪製再匯入Onshape)
+&lt;iframe src="./../chrome_0UuwNl33h6.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701035825.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx=".20200701035825.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx=".20200701035825.3">## 模擬用小車建模:
+
+參考實際汽車圖片尺寸
+&lt;iframe src="./../dcc4b52fe8911405f5aa0c2602862ab4.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701035825.4">## 模擬用小車建模:
+
+繪製小車底盤
+&lt;iframe src="./../chrome_oVS1LLWLOP.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701035825.5">## 模擬用小車建模:
+
+繪製避震器
+&lt;iframe src="./../chrome_2020-05-19_20-26-13.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx=".20200701035825.6">## 模擬用小車建模:
+
+繪製斜齒輪(使用Inventor繪製再匯入Onshape)
+&lt;iframe src="./../chrome_0UuwNl33h6.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+
+
+
+
+
+</t>
+<t tx="leo.20180902120523.1"></t>
+<t tx="leo.20180902120523.10">## 產品協同設計實習
+
+### 40723137
+
+&lt;small&gt;
+Created by [40723137](https://s40723137.github.io/cd2020/content/index.html)
+&lt;/small&gt;
+
+[網誌](./../blog/index.html)
+
+
+</t>
+<t tx="leo.20180902120523.13">&lt;section&gt;
+@others
+&lt;/section&gt;
+
 </t>
 <t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -113,48 +398,25 @@ $$I = \int \rho R^{2} dV$$
 
 						
 </t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
+<t tx="leo.20180902120523.17">## 創建可攜系統
+stop.bat程式碼:
 ```
 @language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
+@echo off
+set Disk=y
+path=%PATH%;
+  
+taskkill /IM python.exe /F
+taskkill /IM pythonw.exe /F
+taskkill /IM scite.exe /F
+  
+REM 終止虛擬硬碟與目錄的對應
+subst %Disk%: /D
+REM 關閉 cmd 指令視窗
+taskkill /IM cmd.exe /F
+  
+EXIT
 ```
-</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 </t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml

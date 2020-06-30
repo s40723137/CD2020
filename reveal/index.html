@@ -39,32 +39,16 @@ CMSimfly 網際內容管理
 <div class="slides">
 <section data-markdown>
     <script type="text/template">
-## CMSimfly 網際內容管理
+## 產品協同設計實習
 
-### KMOLab
+### 40723137
 
 <small>
-Created by [KMOLab](http://lab.kmol.info/)
+Created by [40723137](https://s40723137.github.io/cd2020/content/index.html)
 </small>
 
-[CMSimfly 網誌](./../blog/index.html)
+[網誌](./../blog/index.html)
 
-
-    </script>
-</section>
-
-
-						
-<section data-markdown>
-    <script type="text/template">
-# 投影片快捷鍵
-
-* 利用箭頭上下前後換頁
-* 按 f 鍵進入全螢幕模式 (full screen)
-* 按 s 鍵可以顯示投影片筆記 (show)
-* 按 o 鍵可以切換單張或全域檢視 (overview)
-* 按 b 或 . 鍵可以切換螢幕黑屏 (black)
-* 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
     </script>
 </section>
@@ -74,13 +58,161 @@ Created by [KMOLab](http://lab.kmol.info/)
 <section>
 <section data-markdown>
     <script type="text/template">
+## OBS與youtube直播:
+
+安裝完開啟
+<iframe src="./../images/1.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## OBS與youtube直播:
+
+開啟後新增視頻來源
+<iframe src="./../images/2.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## OBS與youtube直播:
+
+選擇顯示器擷取
+<iframe src="./../images/3.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## OBS與youtube直播:
+
+再建立視訊擷取(相機)
+<iframe src="./../images/4.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## OBS與youtube直播:
+
+確認無問題
+<iframe src="./../images/5.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## OBS與youtube直播:
+
+調整大小
+<iframe src="./../images/6.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## OBS與youtube直播:
+
+至youtube開使串流並複製金鑰
+<iframe src="./../images/9.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## OBS與youtube直播:
+
+將金鑰複製貼上至OBS內的設定
+<iframe src="./../images/8.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## OBS與youtube直播:
+
+點擊開始串流即可開始直播
+<iframe src="./../images/7.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+    </script>
+</section>
+
+
+						
+</section>
+
+<section>
+<section data-markdown>
+    <script type="text/template">
+### 創建可攜系統:
+
+下載PortableGit、MSYS2、python3.8.2、python pip、SciTE、Tiny C Compiler(改名為tcc)、Jupyterlab、Fossil SCM、Flutter、Visual Studio Code、ShareX、putty(老師整理的)並放置於指定路徑，創建home/home_mdecourse：存放 ssh 的資料和.gitconfig，創建tmp存放倉儲
+
+
+
+    </script>
+</section>
+
+
+						
+<section data-markdown>
+    <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-# 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
+## 創建可攜系統
+start.bat程式碼:
+```
+@echo off
+set Disk=y
+subst %Disk%: "data"
+  
+%Disk%:
+  
+set HomePath=%Disk%:\home
+set HomeDrive=%Disk%:\home
+set Home=%Disk%:\home
+set USERPROFILE=%Disk%:\home
+  
+REM 將系統 Python 程式的 io 設為 utf-8
+set PYTHONIOENCODING="utf-8"
+  
+#REM for putty
+#Set GIT_HOME=%CDisk%:\portablegit\bin\
+#Set GIT_SSH=%Disk%:\putty\plink.exe
+  
+set PYTHONPATH=%Disk%:\py382\DLLs;%Disk%:\py382\Lib;%Disk%:\py382\Lib\site-packages;
+set PYTHONHOME=%Disk%:\py382
+  
+set path_python=%Disk%:\py382;%Disk%:\py382\Scripts;
+set path_msys2=%Disk%:\msys64\mingw64\bin;
+set path_git=%Disk%:\portablegit\bin;
+set path_tcc=%Disk%:\tcc;
+  
+path=%Disk%:;%path_python%;%path_msys2%;%path_git%;%path_tcc%;
+  
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+start /MIN cmd.exe
+  
+start /MIN %Disk%:\wscite432\wscite\SciTE.exe
+start /MIN %Disk%:\wscite432\wscite\SciTE.exe
+  
+Exit
+```
     </script>
 </section>
 
@@ -90,31 +222,23 @@ $$I = \int \rho R^{2} dV$$
 <section data-markdown>
     <script type="text/template">
 <!-- 請注意, @others 不可以內縮 -->
-## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
+## 創建可攜系統
+stop.bat程式碼:
 ```
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
+@echo off
+set Disk=y
+path=%PATH%;
+  
+taskkill /IM python.exe /F
+taskkill /IM pythonw.exe /F
+taskkill /IM scite.exe /F
+  
+REM 終止虛擬硬碟與目錄的對應
+subst %Disk%: /D
+REM 關閉 cmd 指令視窗
+taskkill /IM cmd.exe /F
+  
+EXIT
 ```
     </script>
 </section>
@@ -122,13 +246,101 @@ make.start()
 
 
 						
+</section>
+
+<section>
 <section data-markdown>
     <script type="text/template">
-## 使用 iframe 導入影片
+## 模擬用小車建模:
 
-### 導入影片 template
+參考實際汽車圖片尺寸
+<iframe src="./../dcc4b52fe8911405f5aa0c2602862ab4.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+## 模擬用小車建模:
+
+繪製小車底盤
+<iframe src="./../chrome_oVS1LLWLOP.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## 模擬用小車建模:
+
+繪製避震器
+<iframe src="./../chrome_2020-05-19_20-26-13.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## 模擬用小車建模:
+
+繪製斜齒輪(使用Inventor繪製再匯入Onshape)
+<iframe src="./../chrome_0UuwNl33h6.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+    </script>
+</section>
+
+
+						
+</section>
+
+<section>
+<section data-markdown>
+    <script type="text/template">
+## 模擬用小車建模:
+
+參考實際汽車圖片尺寸
+<iframe src="./../dcc4b52fe8911405f5aa0c2602862ab4.jpg" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## 模擬用小車建模:
+
+繪製小車底盤
+<iframe src="./../chrome_oVS1LLWLOP.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## 模擬用小車建模:
+
+繪製避震器
+<iframe src="./../chrome_2020-05-19_20-26-13.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+## 模擬用小車建模:
+
+繪製斜齒輪(使用Inventor繪製再匯入Onshape)
+<iframe src="./../chrome_0UuwNl33h6.png" width="800" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
     </script>
 </section>
 
